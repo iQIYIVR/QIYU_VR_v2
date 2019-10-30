@@ -1,1 +1,1 @@
-# QIYUVR
+# QIYUVR sdk
