@@ -4,3 +4,7 @@
  欢迎来到爱奇艺奇遇VR开发者支持！  
  Welcome to the QIYUVR wiki!  
 #
+# Unity SDK1.0 
+  SETUP 
+  ...
+  
