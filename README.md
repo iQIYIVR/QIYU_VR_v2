@@ -8,3 +8,7 @@
     爱奇艺奇遇VR（2P)现支持WaveSDK.请点击以下链接进行下载  
     https://developer.vive.com/resources/knowledgebase/download-vive-wave-sdk-3-1-4-unity/
   
+### SDK文档
+    SDK说明文档请参阅以下链接内容  
+    https://hub.vive.com/storage/docs/zh-cn/
+    
