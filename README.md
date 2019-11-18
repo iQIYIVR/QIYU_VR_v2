@@ -5,7 +5,7 @@
  Welcome to the QIYUVR wiki!  
 #
 ### HTC VIVE WAVE SDK 
-    爱奇艺奇遇VR（2S不包含6DOF手柄/2P)现支持WaveSDK.请点击以下链接进行下载Unity或Unreal版本.  
+    爱奇艺奇遇VR（2S不包含6DOF手柄/2P)现支持WaveSDK.请使用以下链接进行下载Unity或Unreal版本.  
     https://developer.vive.com/resources/knowledgebase/download-vive-wave-sdk-3-1-4-unity/
   
 ### SDK文档
