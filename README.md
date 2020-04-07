@@ -81,7 +81,8 @@
   > 调用方式示例：QVRCameraMain.Instance.Head;* 
 
 *SvrManager.cs：*  
-> Settings //包括trackPosition（是否追踪位置），headHeight（head高度），headDepth（head深度），eyeAntiAliasing（抗锯齿），cpuPerfLevel，gpuPerfLevel等。  
+> Settings  
+> 包括trackPosition（是否追踪位置），headHeight（head高度），headDepth（head深度），eyeAntiAliasing（抗锯齿），cpuPerfLevel，gpuPerfLevel等。  
 > 调用方式示例：SvrManager.Instance.settings.trackPosition = false;  
 > 可参考Assets/Sample/Scenes/SampleScene 
 
