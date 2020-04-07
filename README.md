@@ -68,7 +68,7 @@ Other Setting参考设置如下两图。
 **2.主要api接口**  
 2.1 camera相关属性和方法   
 *QVRCameraMain.cs：*   
-   > *Head //获取头部transform*  
+  *Head //获取头部transform*  
   *LeftEyeCamera //左camera*  
   *RightEyeCamera //右camera*  
   *Initialized //已初始化*  
@@ -78,6 +78,20 @@ Other Setting参考设置如下两图。
   *IsLockCamera //是否已锁屏*  
   *EnableLog //开关log*  
 *调用方式示例：QVRCameraMain.Instance.Head;* 
+
+*SvrManager.cs：*  
+Settings //包括trackPosition（是否追踪位置），headHeight（head高度），headDepth（head深度），eyeAntiAliasing（抗锯齿），cpuPerfLevel，gpuPerfLevel等。  
+调用方式示例：SvrManager.Instance.settings.trackPosition = false;  
+可参考Assets/Sample/Scenes/SampleScene 
+
+**2.2 手柄按键和数据的接口**   
+QVRInput    
+  
+bool Get(Button buttonMask, Controller controllerMask = Controller.Default)  
+获取按钮事件(不松手一直触发)，默认是带射线的主手柄（以下相同）  
+
+
+
 
 
 
