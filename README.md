@@ -68,7 +68,7 @@
 ### 2.主要API接口 
 
 **2.1 camera相关属性和方法**     
-QVRCameraMain.cs：   
+*QVRCameraMain.cs：*   
   > Head //获取头部transform  
   > LeftEyeCamera //左camera  
   > RightEyeCamera //右camera  
@@ -81,9 +81,9 @@ QVRCameraMain.cs：
   > 调用方式示例：QVRCameraMain.Instance.Head;* 
 
 *SvrManager.cs：*  
-Settings //包括trackPosition（是否追踪位置），headHeight（head高度），headDepth（head深度），eyeAntiAliasing（抗锯齿），cpuPerfLevel，gpuPerfLevel等。  
-调用方式示例：SvrManager.Instance.settings.trackPosition = false;  
-可参考Assets/Sample/Scenes/SampleScene 
+> Settings //包括trackPosition（是否追踪位置），headHeight（head高度），headDepth（head深度），eyeAntiAliasing（抗锯齿），cpuPerfLevel，gpuPerfLevel等。  
+> 调用方式示例：SvrManager.Instance.settings.trackPosition = false;  
+> 可参考Assets/Sample/Scenes/SampleScene 
 
 **2.2 手柄按键和数据的接口**   
  cQVRInput      
