@@ -78,7 +78,7 @@
   > LockCamera //锁屏  
   > IsLockCamera //是否已锁屏  
   > EnableLog //开关log  
-  > 调用方式示例：QVRCameraMain.Instance.Head;* 
+  > 调用方式示例：QVRCameraMain.Instance.Head; 
 
 *SvrManager.cs：*  
 > Settings  
@@ -165,9 +165,9 @@
 
 *QvrSdkService.cs：* 
 
-> *string GetSn() //获取设备SN*  
+> `string GetSn()`//获取设备SN  
 
-> *string GetSystemVersion() //获取设备系统版本*  
+> `string GetSystemVersion()` //获取设备系统版本  
 
 > *string GetModel() //获取设备型号*  
 
