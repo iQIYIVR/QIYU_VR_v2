@@ -65,7 +65,7 @@
 
 ![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic9-2.png) 
 
-## 2.主要API接口 
+### 2.主要API接口 
 
 **2.1 camera相关属性和方法**     
 *QVRCameraMain.cs：*   
@@ -87,11 +87,11 @@ Settings //包括trackPosition（是否追踪位置），headHeight（head高度
 
 **2.2 手柄按键和数据的接口**   
  cQVRInput      
->> `bool Get(Button buttonMask, Controller controllerMask = Controller.Default)`   
->>> 获取按钮事件(不松手一直触发)，默认是带射线的主手柄（以下相同）  
+> `bool Get(Button buttonMask, Controller controllerMask = Controller.Default)`   
+> 获取按钮事件(不松手一直触发)，默认是带射线的主手柄（以下相同）  
 
->> *float GetPressTime(Button buttonMask, Controller controllerMask = Controller.Default)*      
->> 获取按压时间  
+> *float GetPressTime(Button buttonMask, Controller controllerMask = Controller.Default)*      
+> 获取按压时间  
 
 *bool GetDown(Button buttonMask, Controller controllerMask = Controller.Default)*   
 获取按钮按下事件  
