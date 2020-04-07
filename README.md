@@ -68,17 +68,17 @@
 ### 2.主要API接口 
 
 **2.1 camera相关属性和方法**     
-*QVRCameraMain.cs：*   
-  > *Head //获取头部transform*  
-  > *LeftEyeCamera //左camera*  
-  > *RightEyeCamera //右camera*  
-  > *Initialized //已初始化*  
-  > *IsRunning //运行中*  
-  > *RecenterTracking //重置* 
-  > *LockCamera //锁屏*  
-  > *IsLockCamera //是否已锁屏*  
-  > *EnableLog //开关log*   
-*调用方式示例：QVRCameraMain.Instance.Head;* 
+QVRCameraMain.cs：   
+  > Head //获取头部transform  
+  > LeftEyeCamera //左camera  
+  > RightEyeCamera //右camera  
+  > Initialized //已初始化  
+  > IsRunning //运行中  
+  > RecenterTracking //重置 
+  > LockCamera //锁屏  
+  > IsLockCamera //是否已锁屏  
+  > EnableLog //开关log  
+  > 调用方式示例：QVRCameraMain.Instance.Head;* 
 
 *SvrManager.cs：*  
 Settings //包括trackPosition（是否追踪位置），headHeight（head高度），headDepth（head深度），eyeAntiAliasing（抗锯齿），cpuPerfLevel，gpuPerfLevel等。  
