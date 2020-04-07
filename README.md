@@ -86,7 +86,7 @@ Settings //包括trackPosition（是否追踪位置），headHeight（head高度
 **2.2 手柄按键和数据的接口**   
 QVRInput    
   
-`<bool Get(Button buttonMask, Controller controllerMask = Controller.Default)>`   
+`bool Get(Button buttonMask, Controller controllerMask = Controller.Default)`   
 获取按钮事件(不松手一直触发)，默认是带射线的主手柄（以下相同）  
 
 *float GetPressTime(Button buttonMask, Controller controllerMask = Controller.Default)*      
