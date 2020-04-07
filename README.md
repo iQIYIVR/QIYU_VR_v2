@@ -101,7 +101,7 @@
 > 获取按钮抬起事件  
 
 > `float Get(Axis1D axis, Controller controllerMask = Controller.Default)`  
-> 获取一维数据（trigger力度） 
+> 获取一维数据（Trigger力度） 
 
 > `Vector2 Get(Axis2D axis, Controller controllerMask = Controller.Default)`  
 > 获取二维数据（触摸板坐标） 
@@ -148,7 +148,7 @@
 > `void SetDominentHand(Handedness val)`  
 > 设置主手柄 
 
-调用方式示例：  
+###### 调用方式示例：  
 > `QVRInput.IsConnected(QVRInput.Controller.LTouch)`   
 > `QVRControllerInstanceManager.cs：`   
 > `ControllerInstanceType CurrCtrllerInstanceType`  
@@ -157,7 +157,7 @@
 > `Qiyi.Event.Controller：`  
 > 包括CONNECTION_CHANGE等事件通知。  
  
-调用方法示例：  
+###### 调用方法示例：  
 > `Event.AddListener(Event.Controller.CONNECTION_CHANGE, OnConnectionChange);`  
 > `可参考Assets/Sample/Scenes/SampleScene` 
 
