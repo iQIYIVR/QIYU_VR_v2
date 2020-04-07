@@ -69,16 +69,16 @@
 
 **2.1 camera相关属性和方法**     
 *QVRCameraMain.cs：*   
-  > Head //获取头部transform  
-  > LeftEyeCamera //左camera  
-  > RightEyeCamera //右camera  
-  > Initialized //已初始化  
-  > IsRunning //运行中  
-  > RecenterTracking //重置 
-  > LockCamera //锁屏  
-  > IsLockCamera //是否已锁屏  
-  > EnableLog //开关log  
-  > 调用方式示例：QVRCameraMain.Instance.Head; 
+  > `Head `//获取头部transform  
+  > `LeftEyeCamera`//左camera  
+  > `RightEyeCamera`//右camera  
+  > `Initialized`//已初始化  
+  > `IsRunning`//运行中  
+  > `RecenterTracking`//重置 
+  > `LockCamera`//锁屏  
+  > `IsLockCamera`//是否已锁屏  
+  > `EnableLog`//开关log  
+  > 调用方式示例：`QVRCameraMain.Instance.Head;` 
 
 *SvrManager.cs：*  
 > Settings  
@@ -233,49 +233,49 @@
 
 **2.4 VR键盘模块接口** 
 
-*void SetInputField (IVrInputField inputField) //设置键盘所关联的输入框，以将输入内容显示在输入框中* 
+> `void SetInputField (IVrInputField inputField)`//设置键盘所关联的输入框，以将输入内容显示在输入框中 
 
-*bool IsActive () //键盘是否在场景中显示* 
+> `bool IsActive ()`//键盘是否在场景中显示 
 
-*void SetActive (bool active) //调出或隐藏键盘*
+> `void SetActive (bool active)`//调出或隐藏键盘
 
-*bool IsDone () //输入是否完成*
+> `bool IsDone ()`//输入是否完成
 
-*bool WasCanceled () //输入是否被取消* 
+> `bool WasCanceled ()`//输入是否被取消 
 
-*void FinishInput (FinishAction action)//结束输入并隐藏键盘* 
+> `void FinishInput (FinishAction action)`//结束输入并隐藏键盘 
 
-*void ProcessKeyDown (KeyCode code, char c, EventModifiers modifiers)*   
+> `void ProcessKeyDown (KeyCode code, char c, EventModifiers modifiers)`   
 处理键盘按键输入的内容(按键的KeyCode, 按键的字符, 按键的修饰按键)  
 
-*bool IsCapsLock () //是否处于大写锁定状态* 
+> `bool IsCapsLock ()`//是否处于大写锁定状态 
 
-*void ClearInput () //清除输入的内容*  
+> `void ClearInput ()`//清除输入的内容  
 
-*SupportedInputMethod GetCurrentInputMethod () //获取当前的输入法*  
+> `SupportedInputMethod GetCurrentInputMethod ()`//获取当前的输入法  
 
-*void InputSequence (string input) //输入一个字符串*  
+> `void InputSequence (string input)`//输入一个字符串  
 
-*OnEndInputEvent OnEndInput; //点击“完成”按钮时回调*  
+> `OnEndInputEvent OnEndInput;`//点击“完成”按钮时回调  
 
-*nityEvent OnShow; //当键盘ui从隐藏到被显示的时候回调*  
+> `nityEvent OnShow;`//当键盘ui从隐藏到被显示的时候回调  
 
-*UnityEvent OnHide; //键盘被隐藏时回调* 
+> `UnityEvent OnHide;`//键盘被隐藏时回调 
 
-（注意：输入框UI上需要添加VrInputField.cs作为component）  
-可参考Assets/Sample/Scenes/KeyboardScene 
+###### （注意：输入框UI上需要添加VrInputField.cs作为component）  
+###### 可参考Assets/Sample/Scenes/KeyboardScene 
 
 **3.手柄手势模型简介** 
 
-左右手柄和左右手模型prefab在如图所示路径。 
+###### 左右手柄和左右手模型prefab在如图所示路径。 
 
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic10.png" width="300"> 
 
-运行时QVRControllerLoader会自动加载模型，如下图。 
+###### 运行时QVRControllerLoader会自动加载模型，如下图。 
 
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic11.png" width="700"> 
 
-模型资源可根据规则进行替换，如下所示。 
+###### 模型资源可根据规则进行替换，如下所示。 
 
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic12.png" width="500"> 
 
