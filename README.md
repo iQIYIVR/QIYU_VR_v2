@@ -21,10 +21,12 @@
  
 **1.1 主入口模块**  
 ###### 首先，将下图所示prefab拖入场景。  
-<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic1.png" width="300">  
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic1.png" width="300"> 
+
 ###### QVRMain是SDK各主要模块的入口集合，主要包括EventCamera，InputModule（手柄模块），SvrCamera（相机渲染模块）等，如下图。 
 
-<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic2.png" width="200">     
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic2.png" width="200">  
+
 ###### 可参考Assets/Sample/Scenes/SampleScene和Assets/Sample/Scenes/OtherScene  
 
 
