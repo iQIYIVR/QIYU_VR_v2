@@ -28,17 +28,14 @@
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic2.png" width="200">  
 
 ###### 可参考Assets/Sample/Scenes/SampleScene和Assets/Sample/Scenes/OtherScene  
-
-
-
  
-**1.2 系统弹窗转3D显示模块** 
-此模块根据应用需要选择是否拖入场景中，路径如下。 
+**1.2 系统弹窗转3D显示模块**   
+###### 此模块根据应用需要选择是否拖入场景中，路径如下。 
 
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic3.png" width="300"> 
 
-其中包含一个单独的canvas，里面是用于显示texture的image； 
-canvas需要引入EventCamera，并可以根据应用调节大小，距离和scale，如下图所示。  
+###### 其中包含一个单独的canvas，里面是用于显示texture的image； 
+###### canvas需要引入EventCamera，并可以根据应用调节大小，距离和scale，如下图所示。  
 
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic4.png" width="600"> 
 
