@@ -167,67 +167,67 @@
 
 > `string GetSn()`//获取设备SN  
 
-> `string GetSystemVersion()` //获取设备系统版本  
+> `string GetSystemVersion()`//获取设备系统版本  
 
-> *string GetModel() //获取设备型号*  
+> `string GetModel()`//获取设备型号  
 
-> *string GetMacAddress() //获取Mac地址*  
+> `string GetMacAddress()`//获取Mac地址  
 
-> *void SetVolume(int volume) //设置音量，取值(0~15)*  
+> `void SetVolume(int volume)`//设置音量，取值(0~15)  
 
-> *int GetVolume() //获取音量值（0~15）*  
+> `int GetVolume()`//获取音量值（0~15）  
 
-> *string GetProperty(string key, string defaultValue) //获取属性*  
+> `string GetProperty(string key, string defaultValue)`//获取属性  
 
-> *void SetProperty(string key, string value) //设置属性*  
+> `void SetProperty(string key, string value)`//设置属性  
 
-> *void SetBrightness(int brightness) //设置亮度，取值(0~255)*  
+> `void SetBrightness(int brightness)`//设置亮度，取值(0~255)  
 
-> *int GetBrigthness() //获取亮度值（0~255）*  
+> `int GetBrigthness()`//获取亮度值（0~255）  
 
-> *void SetColorTemperature(int colorTemperature) //设置色温，取值(0~255)* 
+> `void SetColorTemperature(int colorTemperature)`//设置色温，取值(0~255) 
 
-> *int GetColorTemperature() //获取色温（0~255）*  
+> `int GetColorTemperature()`//获取色温（0~255）  
 
-> *StorageInfo GetSdInfo() //获取存储容量信息*  
+> `StorageInfo GetSdInfo()`//获取存储容量信息  
 
-> *void OpenWifi() //打开wifi*  
+> `void OpenWifi()`//打开wifi  
 
-> *void CloseWifi() //关闭wifi*  
+> `void CloseWifi()`//关闭wifi  
 
-> *bool IsWifiEnabled() //wifi是否打开*  
+> `bool IsWifiEnabled()`//wifi是否打开  
 
-> *void Reboot() //重启* 
+> `void Reboot()`//重启 
 
-> *void Shutdown() //关机*  
+> `void Shutdown()`//关机  
 
-> *void KeepScreenOn() //亮屏*  
+> `void KeepScreenOn()`//亮屏  
 
-> *void KeepScreenOff() //灭屏*  
+> `void KeepScreenOff()`//灭屏  
 
-> *void StartApp(string packageName, string data = null) //开启应用(应用包名, 传递参数)*  
+> `void StartApp(string packageName, string data = null)`//开启应用(应用包名, 传递参数)  
 
-> *void GetAppList(Action<List<LauncherInfo>> action) //获取应用列表* 
+> `void GetAppList(Action<List<LauncherInfo>> action)`//获取应用列表 
  
-> *bool Is24Format() //是否是24小时制*  
+> `bool Is24Format()`//是否是24小时制  
 
-> *void RegisterBattery(Action<ProtocolBatteryState> action) //注册电量广播*  
+> `void RegisterBattery(Action<ProtocolBatteryState> action)`//注册电量广播  
  
-> *void UnregisterBattery() //取消电量广播*  
+> `void UnregisterBattery()`//取消电量广播  
 
-> *void RegisterWifi(Action<ProtocolWifiState> action) //注册wifi广播*  
+> `void RegisterWifi(Action<ProtocolWifiState> action)`//注册wifi广播  
  
-> *void UnregisterWifi() //取消wifi广播*  
+> `void UnregisterWifi()`//取消wifi广播  
 
-> *void RegisterAppInstall(Action<AppInstallState> action) //注册全局安装/卸载/覆盖安装广播*  
+> `void RegisterAppInstall(Action<AppInstallState> action)`//注册全局安装/卸载/覆盖安装广播  
  
-> *void UnregisterAppInstall() //取消全局安装/卸载/覆盖安装广播*  
+> `void UnregisterAppInstall()`//取消全局安装/卸载/覆盖安装广播  
 
-> *void InstallApp(string apkPath, Action<AppInstallState> action = null) //安装应用*  
+> `void InstallApp(string apkPath, Action<AppInstallState> action = null)`//安装应用  
  
-> *void UninstallApp(string packageName, Action<AppInstallState> action = null) //卸载应用*  
+> `void UninstallApp(string packageName, Action<AppInstallState> action = null)`//卸载应用  
  
-> *void ClearMemory(Action<ProtocolMemory> action) //清理缓存*  
+> `void ClearMemory(Action<ProtocolMemory> action)`//清理缓存  
  
 可参考Assets/Sample/Scenes/SDKServiceDemo  
 
