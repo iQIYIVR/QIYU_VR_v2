@@ -6,12 +6,12 @@
 #
 # 奇遇2Pro UnitySDK开发文档
 *版本：0327 2020.3.27*  
-
+```
 1.模块介绍与工程配置  
 2.API接口  
 3.手柄手势模型简介  
 4.手柄资源规范  
-
+```
 ======================  
 ## 1.主要模块介绍和工程配置 
  
@@ -75,7 +75,7 @@ Other Setting参考设置如下两图。
   > *RecenterTracking //重置* 
   > *LockCamera //锁屏*  
   > *IsLockCamera //是否已锁屏*  
-  > *EnableLog //开关log*  
+  > *EnableLog //开关log*   
 *调用方式示例：QVRCameraMain.Instance.Head;* 
 
 *SvrManager.cs：*  
