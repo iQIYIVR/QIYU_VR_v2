@@ -20,11 +20,11 @@
 **1.1 主入口模块**  
 首先，将下图所示prefab拖入场景。  
 
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic1.png)  
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic1.png" width="300">
 
 QVRMain是SDK各主要模块的入口集合，主要包括EventCamera，InputModule（手柄模块），SvrCamera（相机渲染模块）等，如下图。  
 
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic2.png)  
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic2.png" width="200"> 
 
 可参考Assets/Sample/Scenes/SampleScene和Assets/Sample/Scenes/OtherScene  
 
@@ -33,27 +33,27 @@ QVRMain是SDK各主要模块的入口集合，主要包括EventCamera，InputMod
 **1.2 系统弹窗转3D显示模块** 
 此模块根据应用需要选择是否拖入场景中，路径如下。 
 
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic3.png)  
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic3.png" width="300"> 
 
 其中包含一个单独的canvas，里面是用于显示texture的image； 
 canvas需要引入EventCamera，并可以根据应用调节大小，距离和scale，如下图所示。  
 
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic4.png) 
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic4.png" width="600"> 
 
 可参考Assets/Sample/Scenes/SampleScene  
 
 **1.3 VR键盘模块** 
 此模块根据应用需要选择是否拖入场景的canvas中，并根据应用调节大小，距离和scale，默认是隐藏状态。如下两图。  
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic5.png)  
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic5.png" width="300"> 
 
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic6.png)  
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic6.png" width="800"> 
 
 可参考Assets/Sample/Scenes/KeyboardScene 
 
 **1.4 工程配置** 
 建议使用unity 2018.4及以上版本，Platform选择Android，如图。 
 
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic7.png) 
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic7.png" width="400">  
 
 Orientation选择landscape Left，如图。 
 
@@ -268,15 +268,15 @@ bool Get(Button buttonMask, Controller controllerMask = Controller.Default)
 
 左右手柄和左右手模型prefab在如图所示路径。 
 
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic10.png) 
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic10.png" width="300"> 
 
 运行时QVRControllerLoader会自动加载模型，如下图。 
 
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic11.png) 
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic11.png" width="700"> 
 
 模型资源可根据规则进行替换，如下所示。 
 
-![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic12.png) 
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic12.png" width="500"> 
 
 
 
