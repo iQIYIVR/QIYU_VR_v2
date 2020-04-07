@@ -270,11 +270,11 @@
 
 ###### 运行时QVRControllerLoader会自动加载模型，如下图。 
 
-<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic11.png" width="700"> 
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic11.png" width="650"> 
 
 ###### 模型资源可根据规则进行替换，如下所示。 
 
-<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic12.png" width="500"> 
+<img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/6DOF-3.jpg" width="700"> 
 
 
 
