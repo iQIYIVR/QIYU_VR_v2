@@ -39,26 +39,27 @@
 
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic4.png" width="600"> 
 
-可参考Assets/Sample/Scenes/SampleScene  
+###### 可参考Assets/Sample/Scenes/SampleScene  
 
-**1.3 VR键盘模块** 
-此模块根据应用需要选择是否拖入场景的canvas中，并根据应用调节大小，距离和scale，默认是隐藏状态。如下两图。  
+**1.3 VR键盘模块**   
+###### 此模块根据应用需要选择是否拖入场景的canvas中，并根据应用调节大小，距离和scale，默认是隐藏状态。如下两图。  
+
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic5.png" width="300"> 
 
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic6.png" width="800"> 
 
-可参考Assets/Sample/Scenes/KeyboardScene 
+###### 可参考Assets/Sample/Scenes/KeyboardScene 
 
 **1.4 工程配置** 
-建议使用unity 2018.4及以上版本，Platform选择Android，如图。 
+###### 建议使用unity 2018.4及以上版本，Platform选择Android，如图。 
 
 <img src="https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic7.png" width="400">  
 
-Orientation选择landscape Left，如图。 
+###### Orientation选择landscape Left，如图。 
 
 ![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic8.png) 
 
-Other Setting参考设置如下两图。 
+###### Other Setting参考设置如下两图。 
 
 ![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic9-1.png) 
 
