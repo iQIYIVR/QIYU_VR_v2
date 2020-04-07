@@ -6,9 +6,6 @@
 #
 # 奇遇2Pro UnitySDK开发文档
  ##### 版本：0327 2020.3.27  [SDK下载](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/2p_sdk_0327.unitypackage)
- ```
- 安装提示：下载文件包后，加载入Unity即可。
- ```
  
 ```
 1.模块介绍与工程配置  
