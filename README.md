@@ -4,18 +4,16 @@
  欢迎来到爱奇艺奇遇VR开发者支持！  
  Welcome to the QIYUVR DEV!  
 #
-### 奇遇2P SDK开发文档
+# 奇遇2Pro UnitySDK开发文档
 *版本：0327 2020.3.27*  
 
-1.主要模块介绍和工程配置  
-2.主要api接口  
+1.模块介绍与工程配置  
+2.API接口  
 3.手柄手势模型简介  
 4.手柄资源规范  
 
 ======================  
-1.主要模块介绍和工程配置 
-
-
+## 1.主要模块介绍和工程配置 
  
 **1.1 主入口模块**  
 首先，将下图所示prefab拖入场景。  
@@ -65,7 +63,8 @@ Other Setting参考设置如下两图。
 
 ![](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/pic/pic9-2.png) 
 
-**2.主要api接口**  
+## 2.主要API接口 
+
 2.1 camera相关属性和方法   
 *QVRCameraMain.cs：*   
   *Head //获取头部transform*  
@@ -87,7 +86,7 @@ Settings //包括trackPosition（是否追踪位置），headHeight（head高度
 **2.2 手柄按键和数据的接口**   
 QVRInput    
   
-bool Get(Button buttonMask, Controller controllerMask = Controller.Default)  
+`<bool Get(Button buttonMask, Controller controllerMask = Controller.Default)>`   
 获取按钮事件(不松手一直触发)，默认是带射线的主手柄（以下相同）  
 
 *float GetPressTime(Button buttonMask, Controller controllerMask = Controller.Default)*      
