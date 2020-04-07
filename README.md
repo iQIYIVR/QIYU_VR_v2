@@ -90,75 +90,75 @@ Settings //包括trackPosition（是否追踪位置），headHeight（head高度
 > `bool Get(Button buttonMask, Controller controllerMask = Controller.Default)`   
 > 获取按钮事件(不松手一直触发)，默认是带射线的主手柄（以下相同）  
 
-> *float GetPressTime(Button buttonMask, Controller controllerMask = Controller.Default)*      
+> `float GetPressTime(Button buttonMask, Controller controllerMask = Controller.Default)`      
 > 获取按压时间  
 
-*bool GetDown(Button buttonMask, Controller controllerMask = Controller.Default)*   
-获取按钮按下事件  
+> *bool GetDown(Button buttonMask, Controller controllerMask = Controller.Default)*   
+> 获取按钮按下事件  
 
-*bool GetUp(Button buttonMask, Controller controllerMask = Controller.Default)*   
-获取按钮抬起事件  
+> *bool GetUp(Button buttonMask, Controller controllerMask = Controller.Default)*   
+> 获取按钮抬起事件  
 
-*float Get(Axis1D axis, Controller controllerMask = Controller.Default)*  
-获取一维数据（trigger力度） 
+> *float Get(Axis1D axis, Controller controllerMask = Controller.Default)*  
+> 获取一维数据（trigger力度） 
 
-*Vector2 Get(Axis2D axis, Controller controllerMask = Controller.Default)*  
-获取二维数据（触摸板坐标） 
+> *Vector2 Get(Axis2D axis, Controller controllerMask = Controller.Default)*  
+> 获取二维数据（触摸板坐标） 
 
-*bool GetTouch(Axis2D axis, Controller controllerMask = Controller.Default)*  
-获取按键触摸状态 
+> *bool GetTouch(Axis2D axis, Controller controllerMask = Controller.Default)*  
+> 获取按键触摸状态 
 
-*Vector3 GetLocalPosition(Controller controllerMask = Controller.Default)*  
-控制器位置 
+> *Vector3 GetLocalPosition(Controller controllerMask = Controller.Default)*  
+> 控制器位置 
 
-*Quaternion GetLocalRotation(Controller controllerMask = Controller.Default)*  
-控制器旋转 
+> *Quaternion GetLocalRotation(Controller controllerMask = Controller.Default)*  
+> 控制器旋转 
 
-*Vector3 GetPositionVelocity(Controller controllerMask = Controller.Default)*  
-控制器线速度 
+> *Vector3 GetPositionVelocity(Controller controllerMask = Controller.Default)*  
+> 控制器线速度 
 
-*Vector3 GetPositionAcc(Controller controllerMask = Controller.Default)*  
-控制器线加速度 
+> *Vector3 GetPositionAcc(Controller controllerMask = Controller.Default)*  
+> 控制器线加速度 
 
-*Vector3 GetOrientationVelocity(Controller controllerMask = Controller.Default)*  
-控制器角速度 
+> *Vector3 GetOrientationVelocity(Controller controllerMask = Controller.Default)*  
+> 控制器角速度 
 
-*Vector3 GetOrientationAcc(Controller controllerMask = Controller.Default)*  
-控制器角加速度 
+> *Vector3 GetOrientationAcc(Controller controllerMask = Controller.Default)*  
+> 控制器角加速度 
 
-*int GetBatteryPercentRemaining(Controller controllerMask = Controller.Default)*  
-获取电量 
+> *int GetBatteryPercentRemaining(Controller controllerMask = Controller.Default)*  
+> 获取电量 
 
-*bool IsConnected(Controller controllerMask = Controller.Default)*  
-控制器是否连接 
+> *bool IsConnected(Controller controllerMask = Controller.Default)*  
+> 控制器是否连接 
 
-*string GetVersion(Controller controllerMask = Controller.Default)*  
-获取版本号 
+> *string GetVersion(Controller controllerMask = Controller.Default)*  
+> 获取版本号 
 
-*SwipeType GetSwipe(Controller controllerMask = Controller.Default)*  
-获取滑动手势 
+> *SwipeType GetSwipe(Controller controllerMask = Controller.Default)*  
+> 获取滑动手势 
 
-*void StartVibration(float amplitude, float duration, Controller controllerMask = Controller.Default)*  
-震动手柄（强度，时长，手柄编号） 
+> *void StartVibration(float amplitude, float duration, Controller controllerMask = Controller.Default)*  
+> 震动手柄（强度，时长，手柄编号） 
 
-*Handedness GetDominentHand()*  
-获取主手柄 
+> *Handedness GetDominentHand()*  
+> 获取主手柄 
 
-*void SetDominentHand(Handedness val)*  
-设置主手柄 
+> *void SetDominentHand(Handedness val)*  
+> 设置主手柄 
 
 调用方式示例：  
-*QVRInput.IsConnected(QVRInput.Controller.LTouch)*   
-*QVRControllerInstanceManager.cs：*   
-*ControllerInstanceType CurrCtrllerInstanceType*  
-获取和设置手柄显示还是手势显示 
+> *QVRInput.IsConnected(QVRInput.Controller.LTouch)*   
+> *QVRControllerInstanceManager.cs：*   
+> *ControllerInstanceType CurrCtrllerInstanceType*  
+> 获取和设置手柄显示还是手势显示 
 
-*Qiyi.Event.Controller：*  
-包括CONNECTION_CHANGE等事件通知。  
+> *Qiyi.Event.Controller：*  
+> 包括CONNECTION_CHANGE等事件通知。  
  
 调用方法示例：  
-*Event.AddListener(Event.Controller.CONNECTION_CHANGE, OnConnectionChange);*  
-*可参考Assets/Sample/Scenes/SampleScene* 
+> *Event.AddListener(Event.Controller.CONNECTION_CHANGE, OnConnectionChange);*  
+> *可参考Assets/Sample/Scenes/SampleScene* 
 
 **2.3 系统服务模块接口** 
 
