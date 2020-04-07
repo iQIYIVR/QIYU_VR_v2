@@ -5,14 +5,18 @@
  Welcome to the QIYUVR DEV!  
 #
 # 奇遇2Pro UnitySDK开发文档
- ##### 版本：0327 2020.3.27  [SDK下载](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/2p_sdk_0327.unitypackage) 
+ ##### 版本：0327 2020.3.27  [SDK下载](https://github.com/iQIYIVR/QIYUVR/blob/master/SDK/2p_sdk_0327.unitypackage)
+ ```
+ 安装提示：下载文件包后，加载入Unity即可。
+ ```
+ 
 ```
 1.模块介绍与工程配置  
 2.API接口  
 3.手柄手势模型简介  
 4.手柄资源规范  
 ```
-======================  
+
 ### 1.主要模块介绍和工程配置 
  
 **1.1 主入口模块**  
