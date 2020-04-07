@@ -229,7 +229,7 @@
  
 > `void ClearMemory(Action<ProtocolMemory> action)`//清理缓存  
  
-可参考Assets/Sample/Scenes/SDKServiceDemo  
+    可参考Assets/Sample/Scenes/SDKServiceDemo  
 
 **2.4 VR键盘模块接口** 
 
