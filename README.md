@@ -5,6 +5,15 @@
  Welcome to the QIYUVR DEV!  
 #
 # HTC VIVE WAVE SDK 
+
+爱奇艺奇遇VR整合 VIVE WAVE 平台
+爱奇艺的一体机（包括最新的奇遇2 PRO）均可使用 VIVE WAVE SDK 开发内容, 并通过 VIVEPORT VR应用商店分发内容。
+ 
+VIVE WAVE 是一个开放式的VR开发平台，兼备完善的开发工具，VIVE WAVE VR SDK
+支持主流游戏引擎，跨平台适配众多移动端VR设备与配件，一次编译就可以让使用不同VR硬件的玩家体验到开发者的得意作品。了解更多请访问：https://developer.vive.com/cn/wave/
+ 
+VIVEPORT 是一个全球性的VR订阅服务和VR应用商店平台，用户可以通过Viveport体验2000+款VR应用和游戏，了解更多关于Viveport的信息，请访问：https://www.viveport.com/
+
 ###### 爱奇艺奇遇VR（2S不包含6DOF手柄/2P)现支持WaveSDK.请使用以下链接进行下载Unity或Unreal版本。[SDK下载](https://developer.vive.com/resources/knowledgebase/download-vive-wave-sdk-3-1-4-unity/)    
 ###### SDK说明文档请参阅以下链接内容,如果设备兼容问题请在Issues栏提问，我们将协助您解决问题。[查阅文档](https://hub.vive.com/storage/docs/zh-cn/)  
 
